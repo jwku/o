@@ -17,7 +17,7 @@ StrReplace(oFilter.Text,"*",".*") <<>> counter := StrReplace(counter, "`r`n")  ;
 array PROPERTY; ["A", "B", "C"].Length
 array method
 ...
-g.Hwnd ; simple
+g.Hwnd ; <- simple
 WinActivate g_window_id <<>> WinActivateBottom g_window_id
 If WinActive("ahk_class CabinetWClass") <<>> #HotIf WinActive(g.Hwnd)
 ```
