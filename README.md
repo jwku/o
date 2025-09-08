@@ -18,7 +18,7 @@ array method
 counter := Trim(counter) <<>> MyGuiVisible := Trim(content)
 ```
 ```ahk
-HWND is a handle to a window in Windows programming.
+; HWND is a handle to a window in Windows programming.
 WinActivate	Activates the specified window.
 WinActivateBottom	Same as WinActivate except that it activates the bottommost matching window rather than the topmost.
 WinActive	Checks if the specified window is active and returns its unique ID (HWND).
