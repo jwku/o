@@ -10,6 +10,7 @@ meh; n := match.pos + strlen(str)
 StrReplace(oFilter.Text,"*",".*") <<>> counter := StrReplace(counter, "`r`n")  ; (replace &/) remove CRLF  
 array PROPERTY; ["A", "B", "C"].Length
 array method
+counter := Trim(counter) <<>> MyGuiVisible := Trim(content)
 ```
 Method = function tied to an object/class. Called like obj.method(). It usually operates on the object’s data (this/self).
 
