@@ -1,4 +1,8 @@
-# o
+```ahk
+yearAndWeek := FormatTime( _ , "YWeek")
+nthWeek := SubStr(yearAndWeek, 5 , _ )
+lines := StrSplit(content, _ , _ ) ; lines := StrSplit(content, "`n", _ ) ; lines := StrSplit(content, "`n", "`r")
+```
 
 ```ahk
 ^g::  ; Like Super Ctrl+C hotkey, due to 2x copy probs w/ [v2Lib](https://www.autohotkey.com/docs/v2/lib/)
