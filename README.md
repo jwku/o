@@ -6,6 +6,7 @@ lines := StrSplit(content, "`n", "`r") <<>> lines := StrSplit(content, "`n", _ )
 SetTimer(FocusAgain, -500) <<>> SetTimer( _ , _ , _ )
 keyto's
 SplitPath TargetFile, , , &ext
+skip
 ```
 
 ```ahk
