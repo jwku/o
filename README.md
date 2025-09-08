@@ -33,7 +33,7 @@ WinActive	Checks if the specified window is active and returns its unique ID (HW
 WinExist	Checks if the specified window exists and returns the unique ID (HWND) of the first matching window.
 WinClose	Closes the specified window.
 ```
-```
+```ahk
 ; A window group can be used to make a hotkey or hotstring execute for a group of windows. For example:
 
 GroupAdd "MyGroup", "ahk_class Notepad"
@@ -42,7 +42,9 @@ GroupAdd "MyGroup", "ahk_class WordPadClass"
 #HotIf WinActive("ahk_group MyGroup")
 #z::MsgBox "You pressed Win+Z in either Notepad or WordPad."
 ```
-
+```ahk
+nextWeek := DateAdd(A_YYYY A_MM A_DD, + addVar + 7, "Days") ; [DateAdd.htm](https://www.autohotkey.com/docs/v2/lib/DateAdd.htm) ; Result := DateAdd(DateTime, Time, TimeUnits)
+```
 ```ahk
 ;^c::  ; Ctrl+C hotkey
 ^g::  ; Ctrl+C hotkey
