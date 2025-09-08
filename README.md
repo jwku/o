@@ -50,6 +50,9 @@ nextWeek := DateAdd(A_YYYY A_MM A_DD, + addVar + 7, "Days") ; [v2/DateAdd.htm](h
 GuiControl Object <<>> class Gui.Control extends Object; Gui Object <<>> class Gui extends Object
 ```ahk
 Remainder := Mod(Dividend, Divisor)
+---
+HWND := WinGetID([WinTitle, WinText, ExcludeTitle, ExcludeText])
+ClassName := WinGetClass([WinTitle, WinText, ExcludeTitle, ExcludeText])
 ```
 ```ahk
 ```
