@@ -1,0 +1,3 @@
+[submodule "h"]
+    path = h
+    url = https://github.com/jwku/h.git
