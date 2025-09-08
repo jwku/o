@@ -18,11 +18,11 @@ array PROPERTY; ["A", "B", "C"].Length
 array method
 ...
 g.Hwnd ; <- simple
-WinActivate g_window_id <<>> WinActivateBottom g_window_id                   ; WinActivate ≠ WinActive
-If WinActive("ahk_class CabinetWClass") <<>> #HotIf WinActive(g.Hwnd)        ; WinActivate ≠ WinActive
+If WinActive("ahk_class CabinetWClass") <<>> #HotIf WinActive(g.Hwnd) ; WinActivate ≠ WinActive
+WinActivate g_window_id <<>> WinActivateBottom g_window_id            ; WinActivate ≠ WinActive
 
 ```
-5GUI's WinClose() example here instead [5 0908 1012.ahk](https://github.com/jwku/o/blob/main/5%200908%201012.ahk)
+5GUI's WinExist&WinActivate&WinClose example here instead [5 0908 1012.ahk](https://github.com/jwku/o/blob/main/5%200908%201012.ahk)
 ```ahk
 ; HWND is a handle to a window in Windows programming.
 WinActivate	Activates the specified window.
