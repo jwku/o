@@ -3,6 +3,9 @@ Method = function tied to an object/class. Called like obj.method(). It usually 
 Function = standalone block of code. Called like definedFx() or myFunction(). Doesn’t require an object.
 
 Think: methods belong to objects, functions are independent.
+
+[Built-in Variables; https://www.autohotkey.com/docs/v2/Variables.htm#BuiltIn](https://www.autohotkey.com/docs/v2/Variables.htm#BuiltIn)
+
 ```ahk
 calendar's
 yearAndWeek := FormatTime( _ , "YWeek") <<>> yearAndWeek := FormatTime( _ , _ )
@@ -20,7 +23,6 @@ array method
 g.Hwnd ; <- simple
 If WinActive("ahk_class CabinetWClass") <<>> #HotIf WinActive(g.Hwnd) ; WinActivate ≠ WinActive
 WinActivate g_window_id <<>> WinActivateBottom g_window_id            ; WinActivate ≠ WinActive
-
 ```
 5GUI's WinExist&WinActivate&WinClose example here instead [5 0908 1012.ahk](https://github.com/jwku/o/blob/main/5%200908%201012.ahk)
 ```ahk
