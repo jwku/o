@@ -18,8 +18,8 @@ array PROPERTY; ["A", "B", "C"].Length
 array method
 ...
 g.Hwnd ; <- simple
-WinActivate g_window_id <<>> WinActivateBottom g_window_id
-If WinActive("ahk_class CabinetWClass") <<>> #HotIf WinActive(g.Hwnd)
+WinActivate g_window_id <<>> WinActivateBottom g_window_id                   ; WinActivate ≠ WinActive
+If WinActive("ahk_class CabinetWClass") <<>> #HotIf WinActive(g.Hwnd)        ; WinActivate ≠ WinActive
 
 ```
 5GUI's WinClose() here [5 0908 0954.ahk](https://github.com/jwku/o/blob/main/5%200908%200954.ahk)
