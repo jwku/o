@@ -76,7 +76,7 @@ ClassName := WinGetClass([WinTitle, WinText, ExcludeTitle, ExcludeText])
 }
 ```
 ```ahk
-with a fx: 
+within a fx(): 
     global g_bCopy, g_adjMinutes, g_adjText
     global g_Paths, g_Menu, FavoritesFile, g_AlwaysShowMenu, defaultString
 ```
