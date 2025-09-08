@@ -45,7 +45,7 @@ nextWeek := DateAdd(A_YYYY A_MM A_DD, + addVar + 7, "Days") ; [v2/DateAdd.htm](h
 
 [v2/KeyList.htm](https://www.autohotkey.com/docs/v2/KeyList.htm)
 
-[v2/GuiControls a.k.a. controls/UI objects .htm](https://www.autohotkey.com/docs/v2/lib/GuiControls.htm)
+[v2/GuiControls.htm aka. controls/UI objects aka GuiControl Object](https://www.autohotkey.com/docs/v2/lib/GuiControls.htm)
 ```ahk
 Remainder := Mod(Dividend, Divisor)
 ```
