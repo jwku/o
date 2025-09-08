@@ -6,10 +6,9 @@ Think: methods belong to objects, functions are independent.
 
 [Built-in Variable: https://www.autohotkey.com/docs/v2/Variables.htm#BuiltIn](https://www.autohotkey.com/docs/v2/Variables.htm#BuiltIn)
 ```
-for n, ctrl in WinGetControls("A")
-{
-    Result := MsgBox("Control #%n% is "%ctrl%". Continue?",, 4)
-    if Result = "No"
+for n, ctrl in WinGetControls("A") {        ; "A" = active window
+    Result := MsgBox(ctrl, 4)               ; option 4 prompts user
+    if (Result = "No")
         break
 }
 ```
