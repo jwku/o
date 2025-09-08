@@ -12,10 +12,10 @@ SetTimer(FocusAgain, -500) <<>> SetTimer( _ , _ , _ )
 keyto's
 SplitPath TargetFile, , , &ext
 meh; n := match.pos + strlen(str)
+counter := Trim(counter) <<>> MyGuiVisible := Trim(content)
 StrReplace(oFilter.Text,"*",".*") <<>> counter := StrReplace(counter, "`r`n")  ; (replace &/) remove CRLF  
 array PROPERTY; ["A", "B", "C"].Length
 array method
-counter := Trim(counter) <<>> MyGuiVisible := Trim(content)
 ```
 ```ahk
 ; HWND is a handle to a window in Windows programming.
