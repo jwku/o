@@ -7,6 +7,8 @@ SetTimer(FocusAgain, -500) <<>> SetTimer( _ , _ , _ )
 keyto's
 SplitPath TargetFile, , , &ext
 skip
+array property
+array method
 ```
 
 ```ahk
