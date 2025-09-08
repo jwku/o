@@ -22,7 +22,7 @@ WinActivate g_window_id <<>> WinActivateBottom g_window_id                   ; W
 If WinActive("ahk_class CabinetWClass") <<>> #HotIf WinActive(g.Hwnd)        ; WinActivate ≠ WinActive
 
 ```
-5GUI's WinClose() example here instead [5 0908 0954.ahk](https://github.com/jwku/o/blob/main/5%200908%200954.ahk)
+5GUI's WinClose() example here instead [5 0908 1012.ahk](https://github.com/jwku/o/blob/main/5%200908%201012.ahk)
 ```ahk
 ; HWND is a handle to a window in Windows programming.
 WinActivate	Activates the specified window.
