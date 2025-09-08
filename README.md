@@ -6,8 +6,8 @@ lines := StrSplit(content, "`n", "`r") <<>> lines := StrSplit(content, "`n", _ )
 SetTimer(FocusAgain, -500) <<>> SetTimer( _ , _ , _ )
 keyto's
 SplitPath TargetFile, , , &ext
-skip
-array property
+meh; n := match.pos + strlen(str)    
+array PROPERTY; ["A", "B", "C"].Length
 array method
 ```
 Method = function tied to an object/class. Called like obj.method(). It usually operates on the object’s data (this/self).
