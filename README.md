@@ -9,14 +9,14 @@ SplitPath TargetFile, , , &ext
 ```
 
 ```ahk
-^g::  ; Like Super Ctrl+C hotkey, due to 2x copy probs w/ [v2Lib](https://www.autohotkey.com/docs/v2/lib/)
+^g::  ; Ctrl+C hotkey
 {
     Send("^c")
     Sleep 200
     Send("!m")
+    Sleep 500
+    Send("!+o")
     Sleep 4000
-    Send("^+{~}")
-    Sleep 4500
     Send("^v")
 }
 ```
