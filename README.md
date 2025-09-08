@@ -4,7 +4,7 @@ Function = standalone block of code. Called like definedFx() or myFunction(). Do
 
 Think: methods belong to objects, functions are independent.
 
-[Built-in Variables; https://www.autohotkey.com/docs/v2/Variables.htm#BuiltIn](https://www.autohotkey.com/docs/v2/Variables.htm#BuiltIn)
+[Built-in Variable: https://www.autohotkey.com/docs/v2/Variables.htm#BuiltIn](https://www.autohotkey.com/docs/v2/Variables.htm#BuiltIn)
 
 ```ahk
 calendar's
