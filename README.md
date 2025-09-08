@@ -59,6 +59,7 @@ Remainder := Mod(Dividend, Divisor)
 ---
 HWND := WinGetID([WinTitle, WinText, ExcludeTitle, ExcludeText])
 ClassName := WinGetClass([WinTitle, WinText, ExcludeTitle, ExcludeText])
+ClassNNs := WinGetControls([WinTitle, WinText, ExcludeTitle, ExcludeText])
 ```
 ```ahk
 ```
