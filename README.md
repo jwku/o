@@ -41,9 +41,9 @@ GroupAdd "MyGroup", "ahk_class WordPadClass"
 ---
 RegExMatch(filecontent, RegexPattern, &match, n)) { str:=match[] ... ... }
 ```
-Remainder := Mod(Dividend, Divisor)
 nextWeek := DateAdd(A_YYYY A_MM A_DD, + addVar + 7, "Days") ; [DateAdd.htm](https://www.autohotkey.com/docs/v2/lib/DateAdd.htm) ; Result := DateAdd(DateTime, Time, TimeUnits)
 ```ahk
+Remainder := Mod(Dividend, Divisor)
 ```
 ```ahk
 ```
