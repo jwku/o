@@ -11,7 +11,7 @@ lines := StrSplit(content, "`n", "`r") <<>> lines := StrSplit(content, "`n", _ )
 SetTimer(FocusAgain, -500) <<>> SetTimer( _ , _ , _ )
 keyto's
 SplitPath TargetFile, , , &ext
-meh; n := match.pos + strlen(str)
+n := match.pos + StrLen(str)
 counter := Trim(counter) <<>> MyGuiVisible := Trim(content)
 StrReplace(oFilter.Text,"*",".*") <<>> counter := StrReplace(counter, "`r`n")  ; (replace &/) remove CRLF  
 array PROPERTY; ["A", "B", "C"].Length
