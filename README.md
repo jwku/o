@@ -20,16 +20,16 @@ array method
 g.Hwnd ; <- simple
 WinActivate g_window_id <<>> WinActivateBottom g_window_id
 If WinActive("ahk_class CabinetWClass") <<>> #HotIf WinActive(g.Hwnd)
-5GUI's WinClose() here [5 0908 0954.ahk](https://github.com/jwku/o/blob/main/5%200908%200954.ahk)
 
 ```
+5GUI's WinClose() here [5 0908 0954.ahk](https://github.com/jwku/o/blob/main/5%200908%200954.ahk)
 ```ahk
 ; HWND is a handle to a window in Windows programming.
 WinActivate	Activates the specified window.
 WinActivateBottom	Same as WinActivate except that it activates the bottommost matching window rather than the topmost.
 WinActive	Checks if the specified window is active and returns its unique ID (HWND).
-WinClose	Closes the specified window.
 WinExist	Checks if the specified window exists and returns the unique ID (HWND) of the first matching window.
+WinClose	Closes the specified window.
 ```
 ```
 ; A window group can be used to make a hotkey or hotstring execute for a group of windows. For example:
