@@ -16,6 +16,9 @@ counter := Trim(counter) <<>> MyGuiVisible := Trim(content)
 StrReplace(oFilter.Text,"*",".*") <<>> counter := StrReplace(counter, "`r`n")  ; (replace &/) remove CRLF  
 array PROPERTY; ["A", "B", "C"].Length
 array method
+...
+g.Hwnd
+WinActivate g_window_id <<>> WinActivateBottom g_window_id 
 ```
 ```ahk
 ; HWND is a handle to a window in Windows programming.
