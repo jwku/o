@@ -42,7 +42,9 @@ GroupAdd "MyGroup", "ahk_class WordPadClass"
 RegExMatch(filecontent, RegexPattern, &match, n)) { str:=match[] ... ... }
 ```
 nextWeek := DateAdd(A_YYYY A_MM A_DD, + addVar + 7, "Days") ; [v2/DateAdd.htm](https://www.autohotkey.com/docs/v2/lib/DateAdd.htm) ; Result := DateAdd(DateTime, Time, TimeUnits)
+
 [v2/KeyList.htm](https://www.autohotkey.com/docs/v2/KeyList.htm)
+
 [v2/GuiControls.htm](https://www.autohotkey.com/docs/v2/lib/GuiControls.htm)
 ```ahk
 Remainder := Mod(Dividend, Divisor)
