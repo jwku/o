@@ -1,3 +1,8 @@
+Method = function tied to an object/class. Called like obj.method(). It usually operates on the object’s data (this/self).
+
+Function = standalone block of code. Called like definedFx() or myFunction(). Doesn’t require an object.
+
+Think: methods belong to objects, functions are independent.
 ```ahk
 calendar's
 yearAndWeek := FormatTime( _ , "YWeek") <<>> yearAndWeek := FormatTime( _ , _ )
@@ -12,11 +17,14 @@ array PROPERTY; ["A", "B", "C"].Length
 array method
 counter := Trim(counter) <<>> MyGuiVisible := Trim(content)
 ```
-Method = function tied to an object/class. Called like obj.method(). It usually operates on the object’s data (this/self).
+```ahk
+WinActivate	Activates the specified window.
+WinActivateBottom	Same as WinActivate except that it activates the bottommost matching window rather than the topmost.
+WinActive	Checks if the specified window is active and returns its unique ID (HWND).
+WinClose	Closes the specified window.
+WinExist	Checks if the specified window exists and returns the unique ID (HWND) of the first matching window.
+```
 
-Function = standalone block of code. Called like definedFx() or myFunction(). Doesn’t require an object.
-
-Think: methods belong to objects, functions are independent.
 
 ```ahk
 ^g::  ; Ctrl+C hotkey
