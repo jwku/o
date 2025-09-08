@@ -1,7 +1,10 @@
 ```ahk
+Calendar's
 yearAndWeek := FormatTime( _ , "YWeek") <<>> yearAndWeek := FormatTime( _ , _ )
 nthWeek := SubStr(yearAndWeek, 5 , _ )
 lines := StrSplit(content, "`n", "`r") <<>> lines := StrSplit(content, "`n", _ ) <<>> lines := StrSplit(content, _ , _ )
+keyto's
+SplitPath TargetFile, , , &ext
 ```
 
 ```ahk
