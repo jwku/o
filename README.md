@@ -20,6 +20,8 @@ array method
 g.Hwnd ; <- simple
 WinActivate g_window_id <<>> WinActivateBottom g_window_id
 If WinActive("ahk_class CabinetWClass") <<>> #HotIf WinActive(g.Hwnd)
+5GUI's WinClose() here https://github.com/jwku/o/blob/main/5%200908%200954.ahk
+
 ```
 ```ahk
 ; HWND is a handle to a window in Windows programming.
@@ -40,10 +42,11 @@ GroupAdd "MyGroup", "ahk_class WordPadClass"
 ```
 
 ```ahk
+;^c::  ; Ctrl+C hotkey
 ^g::  ; Ctrl+C hotkey
 {
     Send("^c")
-    Sleep 200
+    Sleep 400
     Send("!m")
     Sleep 500
     Send("!+o")
