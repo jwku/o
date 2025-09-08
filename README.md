@@ -38,6 +38,8 @@ GroupAdd "MyGroup", "ahk_class Notepad"
 GroupAdd "MyGroup", "ahk_class WordPadClass"
 #HotIf WinActive("ahk_group MyGroup")
 #z::MsgBox "You pressed Win+Z in either Notepad or WordPad."
+---
+RegExMatch(filecontent, RegexPattern, &match, n)) { str:=match[] ... ... }
 ```
 ```ahk
 ```
