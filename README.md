@@ -25,7 +25,15 @@ WinActive	Checks if the specified window is active and returns its unique ID (HW
 WinClose	Closes the specified window.
 WinExist	Checks if the specified window exists and returns the unique ID (HWND) of the first matching window.
 ```
+```
+; A window group can be used to make a hotkey or hotstring execute for a group of windows. For example:
 
+GroupAdd "MyGroup", "ahk_class Notepad"
+GroupAdd "MyGroup", "ahk_class WordPadClass"
+
+#HotIf WinActive("ahk_group MyGroup")
+#z::MsgBox "You pressed Win+Z in either Notepad or WordPad."
+```
 
 ```ahk
 ^g::  ; Ctrl+C hotkey
