@@ -10,6 +10,11 @@ skip
 array property
 array method
 ```
+Method = function tied to an object/class. Called like obj.method(). It usually operates on the object’s data (this/self).
+
+Function = standalone block of code. Called like definedFx() or myFunction(). Doesn’t require an object.
+
+Think: methods belong to objects, functions are independent.
 
 ```ahk
 ^g::  ; Ctrl+C hotkey
