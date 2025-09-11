@@ -68,11 +68,11 @@ ClassNNs := WinGetControls([WinTitle, WinText, ExcludeTitle, ExcludeText])
 ^g::  ; Ctrl+C hotkey
 {
     Send("^c")
-    Sleep 400
+    Sleep 300
     Send("!m")
-    Sleep 500
+    Sleep 400
     Send("!+o")
-    Sleep 4000
+    Sleep 2200
     Send("^v")
 }
 ```
