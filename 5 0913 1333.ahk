@@ -1,5 +1,5 @@
 
-Continue LoopLabel
+Continue [LoopLabel]
 
 Skips the rest of a loop statement's current iteration and begins a new one.
 
