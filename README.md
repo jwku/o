@@ -81,6 +81,12 @@ row 1 within a fx():
     global g_bCopy, g_adjMinutes, g_adjText
     global g_Paths, g_Menu, FavoritesFile, g_AlwaysShowMenu, defaultString
 ```
+
+```ahk
+ComCall	Calls a native COM interface method by index.
+DllCall	Calls a function inside a DLL, such as a standard Windows API function.
+```
+
 ```ahk
 ControlChooseIndex	Sets the selection in a ListBox, ComboBox or Tab control to be the Nth item.
 ControlChooseString	Sets the selection in a ListBox or ComboBox to be the first entry whose leading part matches the specified string.
