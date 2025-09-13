@@ -124,3 +124,8 @@ ControlSetText	Changes the text of a control.
 ControlShow	Shows the specified control if it was previously hidden.
 ControlShowDropDown	Shows the drop-down list of a ComboBox control.
 ```
+```ahk
+GetKeyName	Retrieves the name/text of a key.
+GetKeyVK	Retrieves the virtual key code of a key.
+GetKeySC	Retrieves the scan code of a key.
+```
