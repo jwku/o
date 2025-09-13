@@ -85,6 +85,10 @@ row 1 within a fx():
 ```ahk
 ComCall	Calls a native COM interface method by index.
 DllCall	Calls a function inside a DLL, such as a standard Windows API function.
+...
+...
+Exit	Exits the current thread.
+ExitApp	Terminates the script.
 ```
 
 ```ahk
