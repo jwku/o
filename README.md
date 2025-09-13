@@ -81,3 +81,34 @@ row 1 within a fx():
     global g_bCopy, g_adjMinutes, g_adjText
     global g_Paths, g_Menu, FavoritesFile, g_AlwaysShowMenu, defaultString
 ```
+ControlChooseIndex	Sets the selection in a ListBox, ComboBox or Tab control to be the Nth item.
+ControlChooseString	Sets the selection in a ListBox or ComboBox to be the first entry whose leading part matches the specified string.
+ControlClick	Sends a mouse button or mouse wheel event to a control.
+ControlDeleteItem	Deletes the specified entry number from a ListBox or ComboBox.
+ControlFindItem	Returns the entry number of a ListBox or ComboBox that is a complete match for the specified string.
+ControlFocus	Sets input focus to a given control on a window.
+ControlGetChecked	Returns a non-zero value if the checkbox or radio button is checked.
+ControlGetChoice	Returns the name of the currently selected entry in a ListBox or ComboBox.
+ControlGetClassNN	Returns the ClassNN (class name and sequence number) of the specified control.
+ControlGetEnabled	Returns a non-zero value if the specified control is enabled.
+ControlGetFocus	Retrieves which control of the target window has keyboard focus, if any.
+ControlGetHwnd	Returns the unique ID number of the specified control.
+ControlGetIndex	Returns the index of the currently selected entry or tab in a ListBox, ComboBox or Tab control.
+ControlGetItems	Returns an array of items/rows from a ListBox, ComboBox, or DropDownList.
+ControlGetPos	Retrieves the position and size of a control.
+ControlGetStyle
+ControlGetExStyle	Returns an integer representing the style or extended style of the specified control.
+ControlGetText	Retrieves text from a control.
+ControlGetVisible	Returns a non-zero value if the specified control is visible.
+ControlHide	Hides the specified control.
+ControlHideDropDown	Hides the drop-down list of a ComboBox control.
+ControlMove	Moves or resizes a control.
+ControlSend
+ControlSendText	Sends simulated keystrokes or text to a window or control.
+ControlSetChecked	Turns on (checks) or turns off (unchecks) a checkbox or radio button.
+ControlSetEnabled	Enables or disables the specified control.
+ControlSetStyle
+ControlSetExStyle	Changes the style or extended style of the specified control, respectively.
+ControlSetText	Changes the text of a control.
+ControlShow	Shows the specified control if it was previously hidden.
+ControlShowDropDown	Shows the drop-down list of a ComboBox control.
