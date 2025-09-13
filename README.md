@@ -86,9 +86,11 @@ row 1 within a fx():
 ComCall	Calls a native COM interface method by index.
 DllCall	Calls a function inside a DLL, such as a standard Windows API function.
 ...
-...
 Exit	Exits the current thread.
 ExitApp	Terminates the script.
+...
+GuiCtrlFromHwnd	Retrieves the GuiControl object of a GUI control associated with the specified window handle.
+GuiFromHwnd	Retrieves the Gui object of a GUI window associated with the specified window handle.
 ```
 
 ```ahk
