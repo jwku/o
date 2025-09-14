@@ -134,8 +134,8 @@ GetKeySC	Retrieves the scan code of a key.
 ```ahk
 target := 42
 second := "target"
-MsgBox  second   ; Normal (single) variable reference => target
-MsgBox %second%  ; Double-deref => 42
+MsgBox  second   ; Normal (single) variable reference => MsgBox says "target"
+MsgBox %second%  ; Double-deref => MsgBox says "42" instead
 ```
 Pseudo-arrays; 
 A pseudo-array is actually just a bunch of discrete variables, but with a naming pattern which allows them to be used like elements of an array. For example:
