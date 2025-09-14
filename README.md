@@ -1,4 +1,4 @@
-###O
+# O
 
 ```
 for n, ctrl in WinGetControls("A") {        ; "A" = active window
