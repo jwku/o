@@ -64,17 +64,6 @@ ClassNNs := WinGetControls([WinTitle, WinText, ExcludeTitle, ExcludeText])
 ```ahk
 ```
 ```ahk
-;^c::  ; Ctrl+C hotkey
-^g::  ; Ctrl+C hotkey
-{
-    Send("^c")
-    Sleep 300
-    Send("!m")
-    Sleep 400
-    Send("!+o")
-    Sleep 2200
-    Send("^v")
-}
 ```
 ```ahk
 row 1 within a fx(): 
