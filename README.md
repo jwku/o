@@ -83,8 +83,8 @@ row 1 within a fx():
 ```
 
 ```ahk
-ComCall	Calls a native COM interface method by index.
-DllCall	Calls a function inside a DLL, such as a standard Windows API function.
+DllCall	Calls a function inside a .dll file, such as a standard Windows API function.
+ComCall - ****UNRELATED**** -	Calls a native COM interface method by index.
 ...
 Exit	Exits the current thread.
 ExitApp	Terminates the script.
