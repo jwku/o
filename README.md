@@ -127,6 +127,21 @@ second := "target"
 MsgBox  second   ; Normal (single) variable reference => MsgBox says "target"
 MsgBox %second%  ; Double-deref => MsgBox says "42" instead
 ```
+```ahk
+A_LineNumber	
+The number of the currently executing line within the script (or one of its #Include files). This line number will match the one shown by ListLines; it can be useful for error reporting such as this example: MsgBox "Could not write to log file (line number " A_LineNumber ")".
+
+Since a compiled script has merged all its #Include files into one big script, its line numbering may be different than when it is run in non-compiled mode.
+
+A_LineFile	
+The full path and name of the file to which A_LineNumber belongs. If the script was loaded from an external file, this is the same as A_ScriptFullPath unless the line belongs to one of the script's #Include files.
+
+If the script was compiled based on a .bin file, this is the full path and name of the current executable file, the same as A_ScriptFullPath.
+
+If the script is embedded, A_LineFile contains an asterisk (*) followed by the resource name; e.g. *#1
+
+A_ThisFunc	The name of the user-defined function that is currently executing (blank if none); for example: MyFunction. See also: Name property (Func)
+```
 Pseudo-arrays; 
 A pseudo-array is actually just a bunch of discrete variables, but with a naming pattern which allows them to be used like elements of an array. For example:
 ```ahk
