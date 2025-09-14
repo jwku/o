@@ -131,3 +131,18 @@ GetKeyName	Retrieves the name/text of a key.
 GetKeyVK	Retrieves the virtual key code of a key.
 GetKeySC	Retrieves the scan code of a key.
 ```
+```ahk
+target := 42
+second := "target"
+MsgBox  second   ; Normal (single) variable reference => target
+MsgBox %second%  ; Double-deref => 42
+```
+Pseudo-arrays; 
+A pseudo-array is actually just a bunch of discrete variables, but with a naming pattern which allows them to be used like elements of an array. For example:
+```ahk
+MyArray1 := "A"
+MyArray2 := "B"
+MyArray3 := "C"
+Loop 3
+    MsgBox MyArray%A_Index%  ; Shows A, then B, then C.
+```
