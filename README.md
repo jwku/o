@@ -1,10 +1,5 @@
-Method = function tied to an object/class. Called like obj.method(). It usually operates on the object’s data (this/self).
+#O
 
-Function = standalone block of code. Called like definedFx() or myFunction(). Doesn’t require an object.
-
-Think: methods belong to objects, functions are independent.
-
-[Built-in Variable: https://www.autohotkey.com/docs/v2/Variables.htm#BuiltIn](https://www.autohotkey.com/docs/v2/Variables.htm#BuiltIn)
 ```
 for n, ctrl in WinGetControls("A") {        ; "A" = active window
     Result := MsgBox(ctrl,, 4)               ; option 4 prompts user
