@@ -74,7 +74,7 @@ ExitApp	Terminates the script.
 GuiCtrlFromHwnd	Retrieves the GuiControl object of a GUI control associated with the specified window handle.
 GuiFromHwnd	Retrieves the Gui object of a GUI window associated with the specified window handle.
 ```
-![https://www.autohotkey.com/boards/download/file.php?id=10038](https://www.autohotkey.com/boards/download/file.php?id=10038)
+[https://www.autohotkey.com/boards/download/file.php?id=10038](https://www.autohotkey.com/boards/download/file.php?id=10038)
 
 ```ahk
 ControlChooseIndex	Sets the selection in a ListBox, ComboBox or Tab control to be the Nth item.
