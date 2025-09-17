@@ -44,11 +44,9 @@ RegExMatch(filecontent, RegexPattern, &match, n)) { str:=match[] ... ... }
 ```
 nextWeek := DateAdd(A_YYYY A_MM A_DD, + addVar + 7, "Days") ; [v2/DateAdd.htm](https://www.autohotkey.com/docs/v2/lib/DateAdd.htm) ; Result := DateAdd(DateTime, Time, TimeUnits)
 
-[v2/KeyList.htm](https://www.autohotkey.com/docs/v2/KeyList.htm)
-
 [v2/GuiControls.htm aka controls/UI objects aka GuiControl Object](https://www.autohotkey.com/docs/v2/lib/GuiControls.htm)
 
-GuiControl Object <<>> class Gui.Control extends Object; Gui Object <<>> class Gui extends Object
+GuiControl Object <<>> class Gui.Control extends Object ;vs; Gui Object <<>> class Gui extends Object
 ```ahk
 Remainder := Mod(Dividend, Divisor)
 ---
