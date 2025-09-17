@@ -67,9 +67,10 @@ row 1 within a fx():
 ```
 
 ```ahk
+; DllCall is ALSO kinda conceptually related to #Include
 DllCall	Calls a function inside a .dll file, such as a standard Windows API function.
 ComCall Calls a native COM interface method by index.
-It's very unlike ComCall: DllCall is conceptually related to #Include instead
+; ComCall alongside ComObjGet / ComObjCreate
 ...
 Exit	Exits the current thread.
 ExitApp	Terminates the script.
